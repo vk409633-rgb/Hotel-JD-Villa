@@ -17,10 +17,14 @@ export default function GalleryPage() {
         { id: 5, category: 'Rooms', url: 'photo-1590490360182-c33d57733427', title: 'Bathroom' },
         { id: 6, category: 'Rooms', url: 'photo-1595526114035-0d45ed16cfbf', title: 'Room Interior' },
 
-        { id: 7, category: 'Dining', url: 'photo-1414235077428-338989a2e8c0', title: 'Restaurant' },
+        { id: 7, category: 'Dining', url: 'photo-1414235077428-338989a2e8c0', title: 'Main Restaurant' },
         { id: 8, category: 'Dining', url: 'photo-1559339352-11d035aa65de', title: 'Breakfast Buffet' },
         { id: 9, category: 'Dining', url: 'photo-1550966871-3ed3cdb5ed0c', title: 'Fine Dining' },
         { id: 10, category: 'Dining', url: 'photo-1551632436-cbf8dd35adfa', title: 'Gourmet Cuisine' },
+        { id: 23, category: 'Dining', url: 'photo-1517248135467-4c7edcad34c4', title: 'Cozy Cafe' },
+        { id: 24, category: 'Dining', url: 'photo-1571852028168-3e4e70e28d88', title: 'Outdoor Dining' },
+        { id: 25, category: 'Dining', url: 'photo-1514362545857-3bc16549766b', title: 'Lounge Bar' },
+        { id: 26, category: 'Dining', url: 'photo-1488477181946-6428a029177b', title: 'Desserts' },
 
         { id: 11, category: 'Facilities', url: 'photo-1576013551627-0cc20b96c2a7', title: 'Swimming Pool' },
         { id: 12, category: 'Facilities', url: 'photo-1540555700478-4be289fbecef', title: 'Gym' },
@@ -45,7 +49,7 @@ export default function GalleryPage() {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+            <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden section">
                 <div className="absolute inset-0 bg-gradient-hero z-10"></div>
                 <div
                     className="absolute inset-0 bg-cover bg-center"
@@ -64,7 +68,7 @@ export default function GalleryPage() {
             </section>
 
             {/* Filter Section */}
-            <section className="bg-white py-8 shadow-md -mt-16 relative z-30">
+            <section className="bg-white py-8 shadow-md -mt-8 relative z-30">
                 <div className="container-custom">
                     <div className="flex flex-wrap gap-4 justify-center">
                         {categories.map((category) => (
@@ -72,8 +76,8 @@ export default function GalleryPage() {
                                 key={category}
                                 onClick={() => setSelectedCategory(category)}
                                 className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${selectedCategory === category
-                                        ? 'bg-primary text-white shadow-md'
-                                        : 'bg-muted text-foreground hover:bg-border'
+                                    ? 'bg-primary text-white shadow-md'
+                                    : 'bg-muted text-foreground hover:bg-border'
                                     }`}
                             >
                                 {category}
@@ -84,7 +88,7 @@ export default function GalleryPage() {
             </section>
 
             {/* Gallery Grid */}
-            <section className="py-20">
+            <section className="section">
                 <div className="container-custom">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                         {filteredImages.map((image, index) => (
@@ -171,7 +175,7 @@ export default function GalleryPage() {
             )}
 
             {/* CTA Section */}
-            <section className="py-20 bg-gradient-primary text-white">
+            <section className="section bg-gradient-primary text-white">
                 <div className="container-custom text-center">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Experience This?</h2>
                     <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">

@@ -50,13 +50,13 @@ export default function AboutPage() {
                         About Hotel JD Villa
                     </h1>
                     <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
-                        Your trusted partner for memorable stays in Goa
+                        Your trusted partner for memorable stays in Khandala
                     </p>
                 </div>
             </section>
 
             {/* Story Section */}
-            <section className="py-20 bg-white">
+            <section className="section bg-white">
                 <div className="container-custom">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="animate-slide-in-left">
@@ -65,9 +65,9 @@ export default function AboutPage() {
                             </h2>
                             <div className="space-y-4 text-lg text-muted-foreground">
                                 <p>
-                                    Founded in 2015, Hotel JD Villa has been a beacon of hospitality in the heart of Goa.
+                                    Founded in 2015, Hotel JD Villa has been a beacon of hospitality in the heart of Khandala.
                                     What started as a small family-run establishment has grown into one of the most trusted
-                                    names in Goan hospitality.
+                                    names in Lonavala hospitality.
                                 </p>
                                 <p>
                                     Our journey has been driven by a simple philosophy: treat every guest like family.
@@ -75,8 +75,8 @@ export default function AboutPage() {
                                     loyal guests who return year after year.
                                 </p>
                                 <p>
-                                    Today, we continue to blend traditional Goan warmth with modern amenities, creating
-                                    a unique experience that captures the essence of this beautiful coastal paradise.
+                                    Today, we continue to blend traditional warmth with modern amenities, creating
+                                    a unique experience that captures the essence of this beautiful hill station.
                                 </p>
                             </div>
                             <div className="mt-8 flex gap-8">
@@ -106,7 +106,7 @@ export default function AboutPage() {
             </section>
 
             {/* Values Section */}
-            <section className="py-20 bg-muted">
+            <section className="section bg-muted">
                 <div className="container-custom">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Values</h2>
@@ -134,7 +134,7 @@ export default function AboutPage() {
             </section>
 
             {/* Team Section */}
-            <section className="py-20 bg-white">
+            <section className="section bg-white">
                 <div className="container-custom">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl md:text-5xl font-bold mb-4">Meet Our Team</h2>
@@ -166,7 +166,7 @@ export default function AboutPage() {
             </section>
 
             {/* Why Choose Us */}
-            <section className="py-20 bg-muted">
+            <section className="section bg-muted">
                 <div className="container-custom">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose Us?</h2>
@@ -207,11 +207,11 @@ export default function AboutPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 bg-gradient-primary text-white">
+            <section className="section bg-gradient-primary text-white">
                 <div className="container-custom text-center">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Experience the JD Villa Difference</h2>
                     <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
-                        Join thousands of satisfied guests who have made us their home in Goa.
+                        Join thousands of satisfied guests who have made us their home in Khandala.
                     </p>
                     <Link href="/book">
                         <Button variant="accent" size="lg" className="text-lg px-10">

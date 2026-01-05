@@ -64,7 +64,7 @@ export default function HomePage() {
             Welcome to Hotel JD Villa
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Experience Luxury & Comfort in the Heart of Goa
+            Experience Luxury & Comfort in the Scenic Hills of Mahabaleshwar
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Link href="/book">
@@ -118,7 +118,7 @@ export default function HomePage() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-muted">
+      <section className="section bg-muted">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -126,8 +126,8 @@ export default function HomePage() {
                 Your Perfect <span className="gradient-text">Getaway</span> Awaits
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Hotel JD Villa offers a perfect blend of luxury, comfort, and authentic Goan hospitality.
-                Located in the heart of Goa, we provide easy access to beaches, markets, and local attractions.
+                Hotel JD Villa offers a perfect blend of luxury, comfort, and warm hospitality.
+                Located in the scenic hills of Mahabaleshwar, we provide easy access to viewpoints, waterfalls, and local attractions.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
                 Our modern rooms, exceptional service, and competitive pricing make us the ideal choice
@@ -149,7 +149,7 @@ export default function HomePage() {
       </section>
 
       {/* Rooms Section */}
-      <section className="py-20 bg-white">
+      <section className="section bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Rooms & Suites</h2>
@@ -164,11 +164,7 @@ export default function HomePage() {
               <Card key={room.id} hover className="animate-scale-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="relative h-64 overflow-hidden">
                   <img
-                    src={`https://images.unsplash.com/photo-${room.category === 'Standard' ? '1611892440504-64d4d9e4e3e8' :
-                        room.category === 'Deluxe' ? '1618773928121-c32242e63f39' :
-                          room.category === 'Balcony' ? '1582719478250-c89cae4dc85b' :
-                            '1591088398332-8a5791db843b'
-                      }?w=600&q=80`}
+                    src={room.images[0]}
                     alt={room.name}
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                   />
@@ -205,7 +201,7 @@ export default function HomePage() {
       </section>
 
       {/* Amenities Section */}
-      <section className="py-20 bg-muted">
+      <section className="section bg-muted">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">World-Class Amenities</h2>
@@ -232,7 +228,7 @@ export default function HomePage() {
       </section>
 
       {/* Reviews Section */}
-      <section className="py-20 bg-white">
+      <section className="section bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">What Our Guests Say</h2>
@@ -283,7 +279,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-primary text-white">
+      <section className="section bg-gradient-primary text-white">
         <div className="container-custom text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Book Your Stay?</h2>
           <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
@@ -305,17 +301,17 @@ export default function HomePage() {
       </section>
 
       {/* Location Section */}
-      <section className="py-20 bg-white">
+      <section className="section bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Find Us</h2>
             <p className="text-lg text-muted-foreground">
-              Conveniently located in the heart of Goa
+              Nestled in the scenic hills of Mahabaleshwar, Maharashtra
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl h-[500px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.5676789!2d73.7519!3d15.5527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDMzJzA5LjciTiA3M8KwNDUnMDYuOCJF!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://maps.google.com/maps?q=Hotel+JD+Villa,+Ambience+Villa,+Khandala,+Lonavala&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}

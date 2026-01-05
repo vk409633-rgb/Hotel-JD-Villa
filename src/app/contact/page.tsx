@@ -30,8 +30,8 @@ export default function ContactPage() {
         {
             icon: MapPin,
             title: 'Address',
-            content: '123 Beach Road, Calangute\nGoa 403516, India',
-            link: 'https://maps.google.com'
+            content: 'Ambience Villa, Khandala, Lonavala\nOpp. Kamat Hotel, Behind Elight Hotel\nMaharashtra 410401',
+            link: 'https://maps.google.com/?q=Hotel+JD+Villa,+Khandala'
         },
         {
             icon: Phone,
@@ -100,7 +100,7 @@ export default function ContactPage() {
             </section>
 
             {/* Main Content */}
-            <section className="py-20">
+            <section className="section">
                 <div className="container-custom">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                         {/* Contact Form */}
@@ -253,17 +253,17 @@ export default function ContactPage() {
             </section>
 
             {/* Map Section */}
-            <section className="py-20 bg-muted">
+            <section className="section bg-muted">
                 <div className="container-custom">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl md:text-5xl font-bold mb-4">Visit Us</h2>
                         <p className="text-lg text-muted-foreground">
-                            Located in the heart of Calangute, Goa
+                            Nestled in the scenic hills of Khandala, Lonavala
                         </p>
                     </div>
                     <div className="rounded-2xl overflow-hidden shadow-xl h-[500px]">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.5676789!2d73.7519!3d15.5527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDMzJzA5LjciTiA3M8KwNDUnMDYuOCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                            src="https://maps.google.com/maps?q=Hotel+JD+Villa,+Ambience+Villa,+Khandala,+Lonavala&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
@@ -276,7 +276,7 @@ export default function ContactPage() {
             </section>
 
             {/* FAQ Preview */}
-            <section className="py-20 bg-white">
+            <section className="section bg-white">
                 <div className="container-custom text-center">
                     <h2 className="text-4xl font-bold mb-4">Have Questions?</h2>
                     <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">

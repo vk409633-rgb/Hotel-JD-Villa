@@ -62,7 +62,7 @@ export default function RoomsPage() {
             </section>
 
             {/* Rooms Grid */}
-            <section className="py-20">
+            <section className="section">
                 <div className="container-custom">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         {filteredRooms.map((room, index) => (
@@ -71,11 +71,7 @@ export default function RoomsPage() {
                                     {/* Image */}
                                     <div className="relative h-80 md:h-auto overflow-hidden">
                                         <img
-                                            src={`https://images.unsplash.com/photo-${room.category === 'Standard' ? '1611892440504-64d4d9e4e3e8' :
-                                                    room.category === 'Deluxe' ? '1618773928121-c32242e63f39' :
-                                                        room.category === 'Balcony' ? '1582719478250-c89cae4dc85b' :
-                                                            '1591088398332-8a5791db843b'
-                                                }?w=800&q=80`}
+                                            src={room.images[0]}
                                             alt={room.name}
                                             className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                                         />
@@ -154,7 +150,7 @@ export default function RoomsPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 bg-gradient-primary text-white">
+            <section className="section bg-gradient-primary text-white">
                 <div className="container-custom text-center">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Can't Decide?</h2>
                     <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">

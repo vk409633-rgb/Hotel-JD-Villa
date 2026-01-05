@@ -80,7 +80,7 @@ export default function AmenitiesPage() {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+            <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden section">
                 <div className="absolute inset-0 bg-gradient-hero z-10"></div>
                 <div
                     className="absolute inset-0 bg-cover bg-center"
@@ -99,7 +99,7 @@ export default function AmenitiesPage() {
             </section>
 
             {/* Amenities Grid */}
-            <section className="py-20 bg-white">
+            <section className="section bg-white">
                 <div className="container-custom">
                     {amenities.map((category, catIndex) => (
                         <div key={catIndex} className="mb-16 last:mb-0">
@@ -127,7 +127,7 @@ export default function AmenitiesPage() {
             </section>
 
             {/* Policies Section */}
-            <section className="py-20 bg-muted">
+            <section className="section bg-muted">
                 <div className="container-custom">
                     <div className="text-center mb-12">
                         <h2 className="text-4xl md:text-5xl font-bold mb-4">Hotel Policies</h2>
@@ -177,7 +177,7 @@ export default function AmenitiesPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 bg-gradient-primary text-white">
+            <section className="section bg-gradient-primary text-white">
                 <div className="container-custom text-center">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Experience Premium Comfort</h2>
                     <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">

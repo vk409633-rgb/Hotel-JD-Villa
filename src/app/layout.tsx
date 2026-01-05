@@ -17,13 +17,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Hotel JD Villa - Luxury Accommodation in Goa | Direct Booking",
-  description: "Experience luxury and comfort at Hotel JD Villa in Goa. Book directly for the best rates. Premium rooms, modern amenities, and exceptional service await you.",
-  keywords: ["hotel in Goa", "luxury hotel", "Goa accommodation", "beach hotel", "direct booking", "Hotel JD Villa"],
+  title: "Hotel JD Villa - Luxury Accommodation in Mahabaleshwar | Direct Booking",
+  description: "Experience luxury and comfort at Hotel JD Villa in Mahabaleshwar. Book directly for the best rates. Premium rooms, modern amenities, and exceptional service await you.",
+  keywords: ["hotel in Mahabaleshwar", "luxury hotel", "Mahabaleshwar accommodation", "hill station hotel", "direct booking", "Hotel JD Villa", "Khandala hotel", "Lonavala hotel"],
   authors: [{ name: "Hotel JD Villa" }],
   openGraph: {
-    title: "Hotel JD Villa - Luxury Accommodation in Goa",
-    description: "Experience luxury and comfort at Hotel JD Villa in Goa. Book directly for the best rates.",
+    title: "Hotel JD Villa - Luxury Accommodation in Mahabaleshwar",
+    description: "Experience luxury and comfort at Hotel JD Villa in Mahabaleshwar. Book directly for the best rates.",
     type: "website",
     locale: "en_IN",
   },

@@ -5,7 +5,7 @@ import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, MessageCircle } from
 export function Footer() {
     return (
         <footer className="bg-primary text-white">
-            <div className="container-custom py-16">
+            <div className="container-custom section">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* About */}
                     <div>
@@ -20,7 +20,7 @@ export function Footer() {
                         </div>
                         <p className="text-white/80 mb-6">
                             Experience the perfect blend of luxury and comfort at Hotel JD Villa.
-                            Your home away from home in the heart of Goa.
+                            Your home away from home in the heart of Khandala.
                         </p>
                         <div className="flex gap-4">
                             <a href="#" className="w-10 h-10 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition-colors">
@@ -66,8 +66,9 @@ export function Footer() {
                             <li className="flex items-start gap-3">
                                 <MapPin size={20} className="text-accent flex-shrink-0 mt-1" />
                                 <span className="text-white/80">
-                                    123 Beach Road, Calangute<br />
-                                    Goa 403516, India
+                                    Ambience Villa, Khandala, Lonavala<br />
+                                    Opp. Kamat Hotel, Behind Elight Hotel<br />
+                                    Maharashtra 410401
                                 </span>
                             </li>
                             <li className="flex items-center gap-3">

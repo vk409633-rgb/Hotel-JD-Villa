@@ -56,7 +56,7 @@ export const useHotelStore = create<HotelStore>()(
                     amenities: ['Free Wi-Fi', 'Air Conditioning', 'TV', 'Hot Water', 'Room Service'],
                     maxOccupancy: 2,
                     basePrice: 2500,
-                    images: ['/rooms/standard-1.jpg', '/rooms/standard-2.jpg'],
+                    images: ['https://images.unsplash.com/photo-1611892440504-64d4d9e4e3e8?w=800&q=80', 'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80'],
                     size: '250 sq ft'
                 },
                 {
@@ -67,7 +67,7 @@ export const useHotelStore = create<HotelStore>()(
                     amenities: ['Free Wi-Fi', 'Air Conditioning', 'Smart TV', 'Mini Fridge', 'Hot Water', 'Room Service', 'Work Desk'],
                     maxOccupancy: 3,
                     basePrice: 3500,
-                    images: ['/rooms/deluxe-1.jpg', '/rooms/deluxe-2.jpg'],
+                    images: ['https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80', 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=800&q=80'],
                     size: '350 sq ft'
                 },
                 {
@@ -78,7 +78,7 @@ export const useHotelStore = create<HotelStore>()(
                     amenities: ['Free Wi-Fi', 'Air Conditioning', 'Smart TV', 'Mini Fridge', 'Hot Water', 'Room Service', 'Private Balcony', 'Seating Area'],
                     maxOccupancy: 3,
                     basePrice: 4000,
-                    images: ['/rooms/balcony-1.jpg', '/rooms/balcony-2.jpg'],
+                    images: ['https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80', 'https://images.unsplash.com/photo-1591088398332-8a5791db843b?w=800&q=80'],
                     size: '400 sq ft'
                 },
                 {
@@ -89,7 +89,7 @@ export const useHotelStore = create<HotelStore>()(
                     amenities: ['Free Wi-Fi', 'Air Conditioning', 'Smart TV', 'Mini Fridge', 'Hot Water', 'Room Service', 'Living Area', 'King Bed', 'Bathtub', 'Coffee Maker'],
                     maxOccupancy: 4,
                     basePrice: 6000,
-                    images: ['/rooms/suite-1.jpg', '/rooms/suite-2.jpg'],
+                    images: ['https://images.unsplash.com/photo-1591088398332-8a5791db843b?w=800&q=80', 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80'],
                     size: '600 sq ft'
                 }
             ],
@@ -252,7 +252,7 @@ export const useHotelStore = create<HotelStore>()(
             }
         }),
         {
-            name: 'hotel-storage',
+            name: 'hotel-storage-v2',
         }
     )
 )

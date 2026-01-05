@@ -45,7 +45,7 @@ export function Header() {
                         </div>
                         <div className="flex items-center gap-2">
                             <MapPin size={14} />
-                            <span>Goa, India</span>
+                            <span>Mahabaleshwar, Maharashtra</span>
                         </div>
                     </div>
                 </div>
